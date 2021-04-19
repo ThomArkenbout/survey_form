@@ -20,6 +20,91 @@
                 <label id="name-label" for="name">Name</label>
                 <input id="name" class="form-control" type="text" name="name" placeholder="Enter your name" required="">
             </div>
+            <div class="form-group">
+                <label id="email-label" for="email">E-mail</label>
+                <input id="email" class="form-control" type="email" name="email" placeholder="Enter your E-mail"
+                    required="">
+            </div>
+            <div class="form-group">
+                <label id="number-label" for="age">Age</label>
+                <span class="clue">(optional)</span>
+                <input id="age" class="form-control" type="number" name="age" placeholder="Age" min="1" max="99">
+            </div>
+            <div class="form-group">
+                <p>What is your current occupation?</p>
+                <select id="dropdown" class="form-control" name="occupation" required>
+                    <option disabled="" selected="" value="">Select occupation</option>
+                    <option value="student">Student</option>
+                    <option value="partTime">Part Time Job</option>
+                    <option value="fullTime">Full Time Job</option>
+                    <option value="preferNO">Prefer not to say</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <p>How many hours per week do you play games?</p>
+                <label>
+                    <input class="input-radio" name="hours-week" value="0" type="radio">
+                    0 hours
+                </label>
+                <label>
+                    <input class="input-radio" name="hours-week" value="1 - 5 hours" type="radio">
+                    1 - 5 hours
+                </label>
+                <label>
+                    <input class="input-radio" name="hours-week" value="6 - 10 hours" type="radio">
+                    6 - 10 hours
+                </label>
+                <label>
+                    <input class="input-radio" name="hours-week" value="11 - 15 hours" type="radio">
+                    11 - 15 hours
+                </label>
+                <label>
+                    <input class="input-radio" name="hours-week" value="16 - 20 hours" type="radio">
+                    16 - 20 hours
+                </label>
+                <label>
+                    <input class="input-radio" name="hours-week" value="21 hours or more" type="radio">
+                    21 hours or more
+                </label>
+                <div class="form-group">
+                    <p>What kind of games do you play?</p>
+                    <span class="clue">(Check all that apply)</span>
+                    <label>
+                        <input class="input-checkbox" name="prefer" value="role-playing-games" type="checkbox">
+                        Role Playing Games
+                    </label>
+                    <label>
+                        <input class="input-checkbox" name="prefer" value="shooter-games" type="checkbox">
+                        Shooter Games
+                    </label>
+                    <label>
+                        <input class="input-checkbox" name="prefer" value="strategy-games" type="checkbox">
+                        Strategy Games
+                    </label>
+                    <label>
+                        <input class="input-checkbox" name="prefer" value="fighting-games" type="checkbox">
+                        Fighting Games
+                    </label>
+                    <label>
+                        <input class="input-checkbox" name="prefer" value="puzzle-games" type="checkbox">
+                        Puzzle Games
+                    </label>
+                    <label>
+                        <input class="input-checkbox" name="prefer" value="family-games" type="checkbox">
+                        Family Games
+                    </label>
+
+                </div>
+                <div class="form-group">
+                    <p>Any comments or suggestions?</p>
+                    <textarea name="comment" id="comments" class="input-textarea" cols="80" rows="10"
+                        placeholder="Enter your comment here..."></textarea>
+                </div>
+                <div class="form-group">
+                    <button id="submit" class="submit-button" type="submit">Submit</button>
+                </div>
+            </div>
         </form>
 
     </div>
