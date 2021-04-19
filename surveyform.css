@@ -1,7 +1,61 @@
+:root {
+    background-color: rgb(44, 95, 44);
+}
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(67, 136, 67);
+    color: white;
+}
+
 #container {
     max-width: 720px;
-    margin-top: 5vw;
+    margin-top: 3vw;
     margin-left: auto;
     margin-right: auto;
+    text-align: left;
+    padding-left: 2vw;
+}
+
+#header {
     text-align: center;
+}
+
+#survey-form {
+    margin: 1vw 1vw 1vw 1vw;
+}
+
+.form-control {
+    display: block;
+    background-color: white;
+    color: black
+}
+
+.form-group {
+    margin-top: 2vw;
+    margin-bottom: 1.5vw;
+}
+
+#name-label {
+    display: flex;
+    flex-direction: row;
+}
+
+#email-label {
+    display: flex;
+    flex-direction: row;
+}
+
+#number-label {
+    display: flex;
+    flex-direction: row;
+}
+
+.question {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+label {
+    display: flex;
 }
