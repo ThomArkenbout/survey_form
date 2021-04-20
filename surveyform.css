@@ -1,11 +1,10 @@
-:root {
-    background-color: rgb(44, 95, 44);
-}
-
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: rgb(67, 136, 67);
     color: white;
+}
+
+body {
+    background-color: rgb(73, 156, 73);
 }
 
 #container {
@@ -14,11 +13,13 @@
     margin-left: auto;
     margin-right: auto;
     text-align: left;
-    padding-left: 2vw;
+    padding: 0vw 2vw 2vw 2vw;
+    background-color: rgb(30, 58, 30);
 }
 
 #header {
     text-align: center;
+    background-color: rgb(73, 156, 73);
 }
 
 #survey-form {
@@ -58,4 +59,12 @@
 
 label {
     display: flex;
+}
+
+#comments {
+    color: gray;
+}
+
+#submit {
+    background-color: rgb(150, 35, 173);
 }
