@@ -12,8 +12,8 @@
 <body>
     <div id="container">
         <header id="header">
-            <h1 id="title">Title</h1>
-            <p id="description">description</p>
+            <h1 id="title">Game Survey Form</h1>
+            <p id="description">Thank you for helping in our research</p>
         </header>
         <form id="survey-form">
             <div class="form-group">
@@ -69,9 +69,11 @@
                     <input class="input-radio" name="hours-week" value="21 hours or more" type="radio">
                     21 hours or more
                 </label>
-                <div class="form-group">
-                    <p class="question">What kind of games do you play?</p>
-                    <span class="clue">(Check all that apply)</span>
+                <div class="form-group2">
+                    <p class="question">What kind of games do you play?
+                        <span class="clue">(Check all that apply)</span>
+                    </p>
+
                     <label>
                         <input class="input-checkbox" name="prefer" value="role-playing-games" type="checkbox">
                         Role Playing Games
@@ -98,10 +100,9 @@
                     </label>
 
                 </div>
-                <div class="form-group">
+                <div class="form-group2">
                     <p>Any comments or suggestions?</p>
-                    <textarea name="comment" id="comments" class="input-textarea" cols="55" rows="10"
-                        placeholder="Enter your comment here..."></textarea>
+                    <textarea name="comment" id="comments" class="input-textarea" placeholder="Enter your comment here..."></textarea>
                 </div>
                 <div class="form-group">
                     <button id="submit" class="submit-button" type="submit">Submit</button>
